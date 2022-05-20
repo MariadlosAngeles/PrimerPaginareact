@@ -82,7 +82,20 @@ header{
   font-size: 60px;
 }
 
+.contadorUS{
+  text-align: center;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  font-size: 60px;
+
+}
+
 .imgLogo{
   width: 13rem;
   height: 12rem;
+}
+
+.button{
+  justify-items: space-between;
 }

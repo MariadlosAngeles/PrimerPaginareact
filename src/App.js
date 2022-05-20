@@ -5,6 +5,7 @@ import {NotFound} from "./components/Pages/NotFound/NotFound"
 import { Routes, Route } from "react-router-dom";
 import { Footer } from "./components/Layouts/Footer/Footer";
 import { Header } from "./components/Layouts/Header/Header";
+import { ContadorUS } from "./components/Pages/ContadorUS/ContadorUS";
 
 
 
@@ -17,6 +18,8 @@ function App() {
           <Route path="/" element={<Home></Home>}></Route>
           <Route path="/aboutUS" element={<AboutUS></AboutUS>}></Route>
           <Route path="/contactUS" element={<ContactUS></ContactUS>}></Route>
+          <Route path="/contadorUS" element={<ContadorUS></ContadorUS>}></Route>
+
           <Route path="*" element={<NotFound></NotFound>}></Route>
         </Routes>
       <Footer></Footer>
