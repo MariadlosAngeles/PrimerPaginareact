@@ -9,7 +9,7 @@ export const NavigatorUI = () => {
       <Link className="title" to="/aboutUS">AboutUS</Link>
       <Link className="title" to="/contactUS">ContactUS</Link>  
       <Link className="title" to="/contadorUS">ContadorUS</Link>
-
+      
     </nav>
   )
 }
