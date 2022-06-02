@@ -6,7 +6,7 @@ import { Routes, Route } from "react-router-dom";
 import { Footer } from "./components/Layouts/Footer/Footer";
 import { Header } from "./components/Layouts/Header/Header";
 import { ContadorUS } from "./components/Pages/ContadorUS/ContadorUS";
-
+import { Mailer } from "./components/Pages/Mailer/Mailer";
 
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
           <Route path="/aboutUS" element={<AboutUS></AboutUS>}></Route>
           <Route path="/contactUS" element={<ContactUS></ContactUS>}></Route>
           <Route path="/contadorUS" element={<ContadorUS></ContadorUS>}></Route>
-
+          <Route  path="/mailer" element={<Mailer></Mailer>}></Route>
           <Route path="*" element={<NotFound></NotFound>}></Route>
         </Routes>
       <Footer></Footer>

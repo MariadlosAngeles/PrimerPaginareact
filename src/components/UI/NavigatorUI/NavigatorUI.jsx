@@ -6,9 +6,10 @@ export const NavigatorUI = () => {
   return (
     <nav>
       <Link className="title" to="/">Home</Link>
-      <Link className="title" to="/aboutUS">AboutUS</Link>
-      <Link className="title" to="/contactUS">ContactUS</Link>  
-      <Link className="title" to="/contadorUS">ContadorUS</Link>
+      <Link className="title" to="/aboutUS">RickAndMorty</Link>
+      <Link className="title" to="/contactUS">Cactus</Link>  
+      <Link className="title" to="/contadorUS">Contador</Link>
+      <Link className="title" to="/mailer">Mailer</Link>
       
     </nav>
   )

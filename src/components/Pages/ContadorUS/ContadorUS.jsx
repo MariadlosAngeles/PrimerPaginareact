@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { ButtonUI } from '../../UI/ButtonUI/ButtonUI'; //Se importa el componente Button para su uso
 
-
 export const ContadorUS = () => {
     const [number, setCount] = useState(0);
 

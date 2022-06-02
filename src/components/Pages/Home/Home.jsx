@@ -1,6 +1,4 @@
 import React from 'react'
-import { ButtonUI } from '../../UI/ButtonUI/ButtonUI'
-
 
 export const Home = () => {
   return (
