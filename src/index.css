@@ -162,7 +162,6 @@ button{
   margin: 1px;
 }
 
-
 .div-form{
   text-align: center;
   display: flex;
@@ -193,7 +192,7 @@ label {
   margin-bottom: 0.5rem;
 }
 
-input {
+#input {
   font-size: 1rem;
   width: 20rem;
   height: 23px;
@@ -227,3 +226,18 @@ button {
   cursor: pointer;
 }
 
+.tarjeGifs{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  
+}
+img{
+  width: 250px;
+  height: 260px;
+}
+
+.App{
+  height: 100vw;
+}

@@ -7,6 +7,8 @@ import { Footer } from "./components/Layouts/Footer/Footer";
 import { Header } from "./components/Layouts/Header/Header";
 import { ContadorUS } from "./components/Pages/ContadorUS/ContadorUS";
 import { Mailer } from "./components/Pages/Mailer/Mailer";
+import { Gifs } from "./components/Pages/Gifs/Gifs";
+
 
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
           <Route path="/contactUS" element={<ContactUS></ContactUS>}></Route>
           <Route path="/contadorUS" element={<ContadorUS></ContadorUS>}></Route>
           <Route  path="/mailer" element={<Mailer></Mailer>}></Route>
+          <Route  path="/gifs" element={<Gifs></Gifs>}></Route>
+
           <Route path="*" element={<NotFound></NotFound>}></Route>
         </Routes>
       <Footer></Footer>
